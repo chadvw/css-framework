@@ -1,0 +1,131 @@
+@import url('reset.css');
+@import url('text.css');
+@import url('grid.css');
+@import url('forms.css');
+@import url('text.css');
+
+
+
+/* USEFULL */
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+
+.site {width:950px;margin:0 auto;}
+
+.float_left {float:left}
+	img.float_left {margin-right: 10px;}
+.float_right {float:right}
+	img.float_right {margin-left: 10px; float: right}
+.block {display: block}
+.clear {clear:both}
+
+.align_left {text-align: left}
+.align_right {text-align: right}
+.align_center {text-align: center}
+.align_justify {text-align: justify}
+
+
+.box {
+	float: right;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 30px;
+	margin: 20px;
+	text-shadow: 1px 1px 1px #000; 
+	}
+
+.button { padding: 10px; background-color: #ccc;}
+	.button_small {}
+	.button_medium {}
+	.button_large {}
+
+
+.rounded { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.box_shadow {
+	-moz-box-shadow: 0px 0px 4px #ffffff; /* FF3.5+ */
+	-webkit-box-shadow: 0px 0px 4px #ffffff; /* Saf3.0+, Chrome */
+	box-shadow: 0px 0px 4px #ffffff; /* Opera 10.5, IE 9 */
+	}
+.box_gradient {
+	background-color: #e5e5e5;
+	background-image: -moz-linear-gradient(top, #e5e5e5, #fff); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e5e5e5),color-stop(1, #fff)); /* Saf4+, Chrome */
+	}
+
+.column {margin-top: 5px; min-width: 300px !important;}
+	.column p {margin-bottom:7px;}
+.ninja {color: black; visibility: hidden;}
+
+.colborder {border-right: solid 1px #ccc}
+
+/* TYPOGRAPHY */
+
+body {
+font-size: 15px;
+line-height: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: "";line-height: normal; color: #444;}
+h1 {font-size: 62px;}
+h2 {font-size: 48px;}
+h3 {font-size: 36px;}
+h4 {font-size: 28px;}
+h5 {font-size: 18px;}
+h6 {font-size: 15px;}
+
+a { text-decoration: none;}
+
+a:link {}
+
+a:hover {}
+
+a.visited {}
+
+a.active {}
+
+p { margin-bottom: 10px; line-height: 1.5em; }
+
+strong {font-weight: 700}
+
+del {text-decoration: line-through}
+
+em {font-style: italic;}
+
+large {font-size: 18px;}
+
+small {font-size: 13px;}
+
+blockquote { font-size: 24px; line-height: 30px; margin: 30px 0px 30px 0px; color: #777; display: block; border-top: solid #ccc 2px; border-bottom: solid #ccc 2px; padding: 20px; font-style: normal; text-align: left;}
+
+.script {font-family: ""; font-size: 25px; color: rgba(0,91,127,.8); margin-top: 20px;}
+
+span.gc-cs-link {color: #06c; text-decoration: none;}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+
+
+/* STRUCTURE */
+
+
+				
+				
+				
+				
+/* HOME PAGE */				
+
+
+
+
+
+/* FOOTER */
+	
+
+
